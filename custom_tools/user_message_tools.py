@@ -1,6 +1,7 @@
 # custom_tools/user_message_tools.py
 # AIペルソナがユーザーに画像とメッセージを送るためのツール
 # ※事前にDiscordまたはPushoverの設定を完了し、通知送信までできている必要があります。
+# ※通知として扱われます。
 
 import requests
 import os
