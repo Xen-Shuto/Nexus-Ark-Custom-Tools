@@ -1,0 +1,24 @@
+= Nexus Ark Custom Tools
+:author: Xen-Shuto
+:toc: left
+:toc-title: 目次
+
+== 1.このリポジトリについて
+ケノ氏のAIペルソナアプリ「 https://github.com/kenomendako/Nexus-Ark[Nexus Ark] 」用のカスタムツール置き場です。
+ 
+== 2.利用規約（ライセンス）
+本リポジトリ内のMODを利用・参照する際は、必ず link:LICENSE[LICENSE] ファイルをご確認ください。 +
+
+== 3.使い方
+* custom_toolsディレクトリに配置しているスクリプトファイルをダウンロードして、Nexus Arkのcustom_toolsフォルダに格納してください。 +
+* Nexus Arkの外部接続の拡張ツールより、ローカルプラグインとして認識させるため、再スキャンしてください。 +
+※プラグインの一覧に表示されればOKです。 +
+ 
+[cols="1,1,10" grid=all options="autowidth"]
+|===
+| No. | ファイル | 内容
+| 1 | user_image_tools.py | AIペルソナがユーザーの要望や会話の文脈に応じて、情景、キャラクター、アイテムなどのイラストを生成するツール +
+※事前にAUTOMATIC1111をAPIモードで（--apiの引数を追加して）起動しておく必要があります。
+| 2 | user_message_tools.py | AIペルソナがユーザーに画像とメッセージを送るためのツール +
+※事前にDiscordまたはPushoverの設定を完了し、通知送信までできている必要があります。
+|===
