@@ -7,7 +7,7 @@
 ケノ氏のAIペルソナアプリ「 https://github.com/kenomendako/Nexus-Ark[Nexus Ark] 」用のカスタムツール置き場です。
  
 == 2.利用規約（ライセンス）
-本リポジトリ内のMODを利用・参照する際は、必ず link:LICENSE[LICENSE] ファイルをご確認ください。 +
+本リポジトリ内のスクリプトを利用・参照する際は、必ず link:LICENSE[LICENSE] ファイルをご確認ください。 +
 
 == 3.使い方
 * custom_toolsディレクトリに配置しているスクリプトファイルをダウンロードして、Nexus Arkのcustom_toolsフォルダに格納してください。 +
