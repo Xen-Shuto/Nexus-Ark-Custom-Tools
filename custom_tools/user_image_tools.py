@@ -86,8 +86,8 @@ def generate_image_local(room_name: str, prompt: str, aspect_ratio: str = "squar
     }
     actual_id = room_mapping.get(room_name, room_name)
 
-    # --- AUTOMATIC1111のAPI設定 ---
-    url = "http://127.0.0.1:7862/sdapi/v1/txt2img"
+    # --- AUTOMATIC1111のAPI設定（自身の環境に合わせて修正してください。） ---
+    url = "http://127.0.0.1:7861/sdapi/v1/txt2img"
 
     # --- 解像度の設定 ---
     # SDXL系を想定して1024ベースで設定
